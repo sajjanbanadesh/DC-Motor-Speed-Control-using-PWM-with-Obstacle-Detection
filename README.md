@@ -89,42 +89,50 @@ void loop() {
 
   delay(200);
 }
----
+## 📊 Results
 
-##📊 Results
-Distance (cm)	Motor Status
-30	ON
-25	ON
-21	ON
-15	OFF
-10	OFF
----
-
-##🚀 How to Run
-Connect components as per circuit diagram
-Open Arduino IDE
-Select correct board and port
-Upload code
-Open Serial Monitor
-Observe motor behavior
----
-
-##📈 Observations
-Motor runs smoothly at safe distance
-Motor stops when obstacle is detected
-System responds quickly
+| Distance (cm) | Motor Status |
+|--------------|-------------|
+| 30           | ON          |
+| 25           | ON          |
+| 21           | ON          |
+| 15           | OFF         |
+| 10           | OFF         |
 
 ---
-##⚡ Advantages
-Low cost
-Easy implementation
-Energy efficient
-Reliable operation
+
+## 🚀 How to Run
+
+1. Connect components as per the circuit diagram  
+2. Open Arduino IDE  
+3. Select the correct board and port  
+4. Upload the code to Arduino/ESP32  
+5. Open Serial Monitor  
+6. Observe distance readings and motor behavior  
 
 ---
-##🔮 Future Improvements
-PID-based speed control
-Distance-based variable speed
-Buzzer alert system
-Wireless control using ESP32
+
+## 📈 Observations
+
+- Motor runs smoothly when no obstacle is present  
+- Motor stops immediately when an obstacle is detected  
+- System responds quickly to distance changes  
+- Threshold (~20 cm) works effectively  
+
 ---
+
+## ⚡ Advantages
+
+- Low cost and simple design  
+- Easy to implement  
+- Energy efficient  
+- Reliable and real-time operation  
+
+---
+
+## 🔮 Future Improvements
+
+- Implement PID-based speed control  
+- Add distance-based variable speed control  
+- Integrate buzzer for alert system  
+- Enable wireless control using ESP32/WiFi  
