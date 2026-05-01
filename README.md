@@ -19,13 +19,8 @@ This project demonstrates how to control the speed of a DC motor using PWM (Puls
 - DC Motor  
 - HC-SR04 Ultrasonic Sensor  
 - Power Supply  
-- Jumper wires  
-
----
-
-## 🔌 Circuit Diagram
-![Circuit Diagram](images/circuit.png)
-
+- Jumper wires
+- 
 ---
 
 ## ⚙️ Working Principle
@@ -94,6 +89,7 @@ void loop() {
 
   delay(200);
 }
+---
 
 ##📊 Results
 Distance (cm)	Motor Status
@@ -102,6 +98,7 @@ Distance (cm)	Motor Status
 21	ON
 15	OFF
 10	OFF
+---
 
 ##🚀 How to Run
 Connect components as per circuit diagram
@@ -110,20 +107,24 @@ Select correct board and port
 Upload code
 Open Serial Monitor
 Observe motor behavior
+---
 
 ##📈 Observations
 Motor runs smoothly at safe distance
 Motor stops when obstacle is detected
 System responds quickly
 
+---
 ##⚡ Advantages
 Low cost
 Easy implementation
 Energy efficient
 Reliable operation
 
+---
 ##🔮 Future Improvements
 PID-based speed control
 Distance-based variable speed
 Buzzer alert system
 Wireless control using ESP32
+---
